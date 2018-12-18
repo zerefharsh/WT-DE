@@ -1,13 +1,15 @@
 *{
 	margin:0;
 	padding:0;
-	box-sizing:border-box;
+	box-sizing:border-box
+	
 	
 }
 
 .container{
+	background-color:#000;
+	color:#fff;
 	
-	/*background-color:#FFF;*/
 }
 .row{
 		
@@ -16,8 +18,9 @@
 .line{
 	background-color:#ffbb00;
 	display:inline-block;
-		padding: 0 20px 0px 20px;
 		margin-bottom:140px;
+		padding: 0 20px 0px 20px;
+		
 		
 }
 a{
@@ -25,13 +28,24 @@ a{
 	font: Times new Roman;
 	
 }
+
+.menu{
+	display:flex;
+}
+.menu li{
+	margin-right:5px;	
+	flex:1;
+	text-align:center;
+}
+
 .colom{
 	float:left;
 }
-.img1{
-	padding:0;
-	width:20%;
+
+.logo img{
+	width:150px;
 	height:150px;
-	background-image:url('Images/Desert.jpg');
-	background-size:cover;
+	border:5px solid #000;
+	border-radius:50%;
+	border-color: #fff;
 }
